@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hayate Matsu</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="" class="link">
+          Houston, TX
+        </a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <div class="photo-wrapper">
+          <img src="imgs/hayate.jpg" alt="hayate" class="photo">
+        </div>
+        <h1>Hi, I am <span class="about__name">Hayate Matsu.</span></h1>
+        <h2 class="about__role">Blockchain & Fullstack Engineer.</h2>
+        <p class="about__desc">
+          Enthusiastic and skilled blockchain & full-stack engineer with 5+ years of relevant experience and a proven track 
+          record of achieving extraordinary results. With a strong attention to detail and accuracy and the important ability to 
+          function well in a team setting, I am looking for a software engineer job within a forward-moving company.
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/17dk3-wSLDJvsZRZUWDHPRFlYmnmd3UhV/view?usp=sharing">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/unipine"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/hayate-matsu-489753235"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Beverage Finance</h3>
+            <p class="project__description">
+              Beverage Finance makes leverage and yield accessible to anyone with tokenized positions that are traded on DEXs.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Ethereum</li>
+              <li class="project__stack-item">Poylgon</li>
+              <li class="project__stack-item">Solidity</li>
+              <li class="project__stack-item">DeFi 2.0</li>
+              <li class="project__stack-item">Leverage Token</li>
+            </ul>
+
+            <a
+              href="https://github.com/Beverage-Finance"
+              target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://beverage.finance/"
+              target="_blank"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>PinkSale Finance</h3>
+            <p class="project__description">
+              PinkSale helps everyone to create their own tokens and token sales in few seconds. Tokens created on PinkSale will 
+              be verified and published on explorer websites.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Ethereum</li>
+              <li class="project__stack-item">Polygon</li>
+              <li class="project__stack-item">Launchpad</li>
+            </ul>
+            <a
+              href="https://github.com/pinkmoonfinance"
+              target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.pinksale.finance/#/?chain=ETH"
+              target="_blank"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Jasmy E-voting</h3>
+            <p class="project__description">
+              High-quality online voting systems balance ballot security, accessibility, and the overall requirements of an
+              organization's voting event. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">E-voting</li>
+              <li class="project__stack-item">Web3.js</li>
+              <li class="project__stack-item">React.js</li>
+              <li class="project__stack-item">WebRTC</li>
+            </ul>
+
+            <a
+              href="#private"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://jasmy.co.jp/"
+              target="_blank"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          
+          <div class="project">
+            <h3>Mazda</h3>
+            <p class="project__description">
+              Best known for their rotary engine technology, Mazda is one of the world's premier automakers, producing sporty 
+              and efficient vehicles for everyone to experience.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Node.js</li>
+              <li class="project__stack-item">Express.js</li>
+              <li class="project__stack-item">React.js</li>
+              <li class="project__stack-item">MongoDB</li>
+            </ul>
+
+            <a
+              href="#private"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://jasmy.co.jp/"
+              target="_blank"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          
+          <div class="project">
+            <h3>JPC Trade</h3>
+            <p class="project__description">
+              JPCTRADE is a leading Japanese used cars exporter. JPC TRADE was established in 2003 and currently it is one 
+              of Japan is fastest growing company.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Node.js</li>
+              <li class="project__stack-item">Express.js</li>
+              <li class="project__stack-item">React.js</li>
+              <li class="project__stack-item">MongoDB</li>
+              <li class="project__stack-item">Elasticsearch</li>
+            </ul>
+
+            <a
+              href="#private"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://jasmy.co.jp/"
+              target="_blank"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          
+          <div class="project">
+            <h3>Longwalker</h3>
+            <p class="project__description">
+              Longwalker Store sells works<br /> and goods by illustrator Kozo,<br /> a well-known<br /> Japanese illustrator<br />
+              and writer.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Node.js</li>
+              <li class="project__stack-item">Express.js</li>
+              <li class="project__stack-item">React.js</li>
+              <li class="project__stack-item">MySQL</li>
+              <li class="project__stack-item">AWS</li>
+            </ul>
+
+            <a
+              href="#private"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://jasmy.co.jp/"
+              target="_blank"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Solidity</li>
+          <li class="skills__list-item btn btn--plain">Go</li>
+          <li class="skills__list-item btn btn--plain">Web3.js</li>
+          <li class="skills__list-item btn btn--plain">Ether</li>
+          <li class="skills__list-item btn btn--plain">Hardhat</li>
+          <li class="skills__list-item btn btn--plain">Truffle</li>
+          <li class="skills__list-item btn btn--plain">C/C++</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">TypeScript</li>
+          <li class="skills__list-item btn btn--plain">Node.js</li>
+          <li class="skills__list-item btn btn--plain">PHP</li>
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Next.js</li>
+          <li class="skills__list-item btn btn--plain">Express.js</li>
+          <li class="skills__list-item btn btn--plain">GraphQL</li>
+          <li class="skills__list-item btn btn--plain">REST API</li>
+          <li class="skills__list-item btn btn--plain">NoSQL</li>
+          <li class="skills__list-item btn btn--plain">MySQL</li>
+          <li class="skills__list-item btn btn--plain">AWS</li>
+          <li class="skills__list-item btn btn--plain">Mocha</li>
+          <li class="skills__list-item btn btn--plain">Chai</li>
+          <li class="skills__list-item btn btn--plain">CI/CD</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:unipine29@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href=""
+        class="link footer__link"
+      >
+        Created By Hayate Matsu
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
